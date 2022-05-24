@@ -1,0 +1,27 @@
+For first time users:
+
+git config --global user.name "your github username"
+git config --global user.email "your github email"
+
+For users who wanted to push their code in a newly created repo:
+
+git init (To initialize an empty git repo)
+git add . (add all your files)
+git commit -m "your commit messages" (To represent your messages)
+git remote add origin <link> (Connect your machine to github)
+git push origin master (Upload your project to github)
+git rm "file name" (To remove files)
+
+For rest of the time:
+
+git add . (add all the changed files)
+git commit -m "your commit messages" (To represent your changes)
+git push origin master (Upload your project to github)
+git rm "file name" (To remove files)
+
+Extra commands:
+
+git status (check status of your project)
+git log --oneline (check your commit history)
+git reset --hard <head number extracted from git log --oneline> (reset your local code to any particular commit)
+
